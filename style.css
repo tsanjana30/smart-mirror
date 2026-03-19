@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#greeting {
+    font-size: 28px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+#time {
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(255,255,255,0.6);
+}
+
+#date {
+    font-size: 28px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+#weather {
+    margin-top: 20px;
+    font-size: 24px;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#news {
+    margin-top: 30px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.container {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
